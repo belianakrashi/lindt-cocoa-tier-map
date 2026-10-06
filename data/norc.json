@@ -1,0 +1,71 @@
+{
+ "note": "Only the headline NORC figures are filled. Country splits left empty on purpose until read from the NORC report.",
+ "rows": [
+  {
+   "metric": "Children in child labor in cocoa (Ghana + Côte d'Ivoire), 2018/19",
+   "country": "Both",
+   "value": 1560000,
+   "unit": "children",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ILAB/Cocoa%20Webinar%20-%20Final.pdf",
+     "accessed": "2026-10-05",
+     "id": "S02"
+    }
+   ]
+  },
+  {
+   "metric": "Of which in hazardous child labor",
+   "country": "Both",
+   "value": 1480000,
+   "unit": "children",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ILAB/Cocoa%20Webinar%20-%20Final.pdf",
+     "accessed": "2026-10-05",
+     "id": "S02"
+    }
+   ]
+  },
+  {
+   "metric": "Children in child labor in cocoa, 2018/19",
+   "country": "Côte d'Ivoire",
+   "value": null,
+   "unit": "children",
+   "confidence": "Unverified",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    }
+   ]
+  },
+  {
+   "metric": "Children in child labor in cocoa, 2018/19",
+   "country": "Ghana",
+   "value": null,
+   "unit": "children",
+   "confidence": "Unverified",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    }
+   ]
+  }
+ ]
+}

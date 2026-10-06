@@ -1,0 +1,681 @@
+{
+ "basemap": {
+  "attribution": "Tiles © Esri, HERE, Garmin, OpenStreetMap contributors",
+  "maxZoom": 16,
+  "light": [
+   "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+   "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+  ],
+  "dark": [
+   "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+   "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+  ]
+ },
+ "note": "Basemap: CARTO raster tiles now need an API key, so Esri gray canvas tiles are used; edit basemap URLs here to swap. Coordinates are approximate. Region polygons are hand-drawn illustrations of cocoa belts, not survey boundaries. Flow weights are illustrative (1-5) until real shipment or trade data is added to imports.csv.",
+ "regions": [
+  {
+   "id": "reg-gh-west",
+   "name": "Ghana: Western / Ahafo cocoa belt",
+   "country": "Ghana",
+   "polygon": [
+    [
+     7.0,
+     -3.0
+    ],
+    [
+     7.0,
+     -1.9
+    ],
+    [
+     6.0,
+     -1.9
+    ],
+    [
+     5.0,
+     -2.1
+    ],
+    [
+     5.0,
+     -2.95
+    ],
+    [
+     6.0,
+     -3.1
+    ]
+   ],
+   "norc_prevalence": null,
+   "risk": "Sector-level: child labor documented at scale in Ghana (NORC)",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ILAB/Cocoa%20Webinar%20-%20Final.pdf",
+     "accessed": "2026-10-05",
+     "id": "S02"
+    }
+   ]
+  },
+  {
+   "id": "reg-gh-east",
+   "name": "Ghana: Ashanti / Eastern / Central belt",
+   "country": "Ghana",
+   "polygon": [
+    [
+     7.0,
+     -1.9
+    ],
+    [
+     7.0,
+     -0.3
+    ],
+    [
+     6.2,
+     0.4
+    ],
+    [
+     5.8,
+     0.3
+    ],
+    [
+     5.5,
+     -0.8
+    ],
+    [
+     5.3,
+     -1.9
+    ],
+    [
+     6.0,
+     -1.9
+    ]
+   ],
+   "norc_prevalence": null,
+   "risk": "Sector-level: child labor documented at scale in Ghana (NORC)",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ILAB/Cocoa%20Webinar%20-%20Final.pdf",
+     "accessed": "2026-10-05",
+     "id": "S02"
+    }
+   ]
+  },
+  {
+   "id": "reg-ci-sw",
+   "name": "Côte d'Ivoire: South-West (Soubré / San-Pédro)",
+   "country": "Côte d'Ivoire",
+   "polygon": [
+    [
+     6.6,
+     -7.4
+    ],
+    [
+     6.6,
+     -6.0
+    ],
+    [
+     5.6,
+     -5.6
+    ],
+    [
+     4.9,
+     -6.2
+    ],
+    [
+     4.55,
+     -7.2
+    ]
+   ],
+   "norc_prevalence": null,
+   "risk": "Sector-level: child labor documented at scale in Côte d'Ivoire (NORC, DOL)",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
+     "accessed": "2026-10-05",
+     "id": "S04"
+    }
+   ]
+  },
+  {
+   "id": "reg-ci-cw",
+   "name": "Côte d'Ivoire: Centre-West (Daloa / Gagnoa)",
+   "country": "Côte d'Ivoire",
+   "polygon": [
+    [
+     7.6,
+     -7.2
+    ],
+    [
+     7.6,
+     -5.8
+    ],
+    [
+     6.6,
+     -5.4
+    ],
+    [
+     6.6,
+     -7.4
+    ]
+   ],
+   "norc_prevalence": null,
+   "risk": "Sector-level: child labor documented at scale in Côte d'Ivoire (NORC, DOL)",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
+     "accessed": "2026-10-05",
+     "id": "S04"
+    }
+   ]
+  },
+  {
+   "id": "reg-ci-east",
+   "name": "Côte d'Ivoire: East / South-East (Abengourou / Agboville)",
+   "country": "Côte d'Ivoire",
+   "polygon": [
+    [
+     7.2,
+     -4.9
+    ],
+    [
+     7.2,
+     -3.0
+    ],
+    [
+     6.0,
+     -3.0
+    ],
+    [
+     5.5,
+     -4.2
+    ],
+    [
+     6.2,
+     -5.0
+    ]
+   ],
+   "norc_prevalence": null,
+   "risk": "Sector-level: child labor documented at scale in Côte d'Ivoire (NORC, DOL)",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
+     "accessed": "2026-10-05",
+     "id": "S04"
+    }
+   ]
+  }
+ ],
+ "ports": [
+  {
+   "id": "port-abidjan",
+   "name": "Port of Abidjan",
+   "country": "Côte d'Ivoire",
+   "lat": 5.28,
+   "lng": -4.01,
+   "kind": "port",
+   "desc": "Main Ivorian port; major cocoa export and grinding hub.",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.conseilcafecacao.ci/",
+     "accessed": "2026-10-05",
+     "id": "S22"
+    }
+   ]
+  },
+  {
+   "id": "port-sanpedro",
+   "name": "Port of San-Pédro",
+   "country": "Côte d'Ivoire",
+   "lat": 4.74,
+   "lng": -6.63,
+   "kind": "port",
+   "desc": "World's busiest cocoa export port, serving the South-West belt.",
+   "confidence": "Reported",
+   "sources": [
+    {
+     "url": "https://www.conseilcafecacao.ci/",
+     "accessed": "2026-10-05",
+     "id": "S22"
+    }
+   ]
+  },
+  {
+   "id": "port-tema",
+   "name": "Port of Tema",
+   "country": "Ghana",
+   "lat": 5.63,
+   "lng": 0.01,
+   "kind": "port",
+   "desc": "Ghana's main port; hosts cocoa processing and COCOBOD operations.",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://cocobod.gh/",
+     "accessed": "2026-10-05",
+     "id": "S21"
+    }
+   ]
+  },
+  {
+   "id": "port-takoradi",
+   "name": "Port of Takoradi",
+   "country": "Ghana",
+   "lat": 4.88,
+   "lng": -1.75,
+   "kind": "port",
+   "desc": "Western Ghana port serving the western cocoa belt.",
+   "confidence": "Reported",
+   "sources": [
+    {
+     "url": "https://cocobod.gh/",
+     "accessed": "2026-10-05",
+     "id": "S21"
+    }
+   ]
+  }
+ ],
+ "processing": [
+  {
+   "id": "proc-hub-tema",
+   "name": "Tema processing zone (sector context)",
+   "country": "Ghana",
+   "lat": 5.66,
+   "lng": 0.0,
+   "kind": "processing",
+   "desc": "Sector context only. No link to Lindt established.",
+   "confidence": "Unverified",
+   "sources": [
+    {
+     "url": "https://cocobod.gh/",
+     "accessed": "2026-10-05",
+     "id": "S21"
+    }
+   ]
+  },
+  {
+   "id": "proc-hub-abidjan",
+   "name": "Abidjan / San-Pédro grinding hubs (sector context)",
+   "country": "Côte d'Ivoire",
+   "lat": 5.35,
+   "lng": -4.1,
+   "kind": "processing",
+   "desc": "Sector context only. Lindt's butter processors are unnamed in our sources.",
+   "confidence": "Unverified",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ]
+  }
+ ],
+ "factories": [
+  {
+   "id": "fac-stratham",
+   "name": "Lindt USA, Stratham NH"
+  },
+  {
+   "id": "fac-sanleandro",
+   "name": "Ghirardelli, San Leandro CA"
+  },
+  {
+   "id": "fac-abilene",
+   "name": "Russell Stover, Abilene KS"
+  },
+  {
+   "id": "fac-montrose",
+   "name": "Russell Stover, Montrose CO"
+  },
+  {
+   "id": "fac-corsicana",
+   "name": "Russell Stover, Corsicana TX"
+  }
+ ],
+ "hq": [
+  {
+   "id": "lindt-group",
+   "name": "Lindt & Sprüngli Group HQ, Kilchberg (CH)"
+  }
+ ],
+ "flows": [
+  {
+   "id": "fl-1",
+   "to": "port-takoradi",
+   "stage": "farm→port",
+   "weight": 3,
+   "confidence": "Unverified",
+   "label": "Western Ghana beans to Takoradi (illustrative)",
+   "sources": [
+    {
+     "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+     "accessed": "2026-10-05",
+     "id": "S09"
+    }
+   ],
+   "from": "reg-gh-west"
+  },
+  {
+   "id": "fl-2",
+   "to": "port-tema",
+   "stage": "farm→port",
+   "weight": 4,
+   "confidence": "Unverified",
+   "label": "Ashanti/Eastern beans to Tema (illustrative)",
+   "sources": [
+    {
+     "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+     "accessed": "2026-10-05",
+     "id": "S09"
+    }
+   ],
+   "from": "reg-gh-east"
+  },
+  {
+   "id": "fl-3",
+   "to": "port-sanpedro",
+   "stage": "farm→port",
+   "weight": 5,
+   "confidence": "Unverified",
+   "label": "South-West Ivorian cocoa to San-Pédro (illustrative)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "reg-ci-sw"
+  },
+  {
+   "id": "fl-4",
+   "to": "port-sanpedro",
+   "stage": "farm→port",
+   "weight": 3,
+   "confidence": "Unverified",
+   "label": "Centre-West Ivorian cocoa to San-Pédro (illustrative)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "reg-ci-cw"
+  },
+  {
+   "id": "fl-5",
+   "to": "port-abidjan",
+   "stage": "farm→port",
+   "weight": 3,
+   "confidence": "Unverified",
+   "label": "Eastern Ivorian cocoa to Abidjan (illustrative)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "reg-ci-east"
+  },
+  {
+   "id": "fl-6",
+   "to": "proc-hub-tema",
+   "stage": "port→processor",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Processing step (location unconfirmed)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "port-tema"
+  },
+  {
+   "id": "fl-7",
+   "to": "proc-hub-abidjan",
+   "stage": "port→processor",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Processing step (location unconfirmed)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "port-abidjan"
+  },
+  {
+   "id": "fl-8",
+   "to": "proc-hub-tema",
+   "stage": "port→processor",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Processing step (location unconfirmed)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "port-takoradi"
+  },
+  {
+   "id": "fl-9",
+   "to": "proc-hub-abidjan",
+   "stage": "port→processor",
+   "weight": 3,
+   "confidence": "Unverified",
+   "label": "Processing step (location unconfirmed)",
+   "sources": [
+    {
+     "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+     "accessed": "2026-10-05",
+     "id": "S07"
+    }
+   ],
+   "from": "port-sanpedro"
+  },
+  {
+   "id": "fl-us-proc-hub-tema-stratham",
+   "to": "fac-stratham",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to stratham (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-tema"
+  },
+  {
+   "id": "fl-us-proc-hub-tema-sanleandro",
+   "to": "fac-sanleandro",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to sanleandro (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-tema"
+  },
+  {
+   "id": "fl-us-proc-hub-tema-abilene",
+   "to": "fac-abilene",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to abilene (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-tema"
+  },
+  {
+   "id": "fl-us-proc-hub-tema-montrose",
+   "to": "fac-montrose",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to montrose (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-tema"
+  },
+  {
+   "id": "fl-us-proc-hub-tema-corsicana",
+   "to": "fac-corsicana",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to corsicana (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-tema"
+  },
+  {
+   "id": "fl-us-proc-hub-abidjan-stratham",
+   "to": "fac-stratham",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to stratham (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-abidjan"
+  },
+  {
+   "id": "fl-us-proc-hub-abidjan-sanleandro",
+   "to": "fac-sanleandro",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to sanleandro (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-abidjan"
+  },
+  {
+   "id": "fl-us-proc-hub-abidjan-abilene",
+   "to": "fac-abilene",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to abilene (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-abidjan"
+  },
+  {
+   "id": "fl-us-proc-hub-abidjan-montrose",
+   "to": "fac-montrose",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to montrose (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-abidjan"
+  },
+  {
+   "id": "fl-us-proc-hub-abidjan-corsicana",
+   "to": "fac-corsicana",
+   "stage": "processor→US factory",
+   "weight": 2,
+   "confidence": "Unverified",
+   "label": "Possible route to corsicana (no shipment data yet)",
+   "sources": [
+    {
+     "url": "https://www.importyeti.com/",
+     "accessed": "2026-10-05",
+     "id": "S18"
+    }
+   ],
+   "from": "proc-hub-abidjan"
+  }
+ ],
+ "journey": [
+  "reg-gh-east",
+  "port-tema",
+  "proc-hub-tema",
+  "fac-stratham"
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "updated": "2026-10-05",
+ "headline": "Where Lindt's cocoa comes from, and what the public record says about it",
+ "summary": "Ghana and Côte d'Ivoire grow more than half of the world's cocoa, and US Department of Labor-funded research found about 1.56 million children in cocoa child labor there in 2018/19. In July 2026 a complaint was moved to a Washington, DC federal court alleging that Lindt & Sprüngli misled consumers about its efforts to end child labor in its supply chain. Lindt denies the allegations. This project maps how cocoa from the region reaches US shelves under Lindt, Ghirardelli and Russell Stover, using only public sources. It maps sector-level risk and the gap between public claims and documented conditions. It does not say any specific product was made with child labor.",
+ "stats": [
+  {
+   "id": "children",
+   "label": "Children in cocoa child labor, Ghana and Côte d'Ivoire (2018/19)",
+   "value": 1560000,
+   "format": "compact",
+   "suffix": "",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    },
+    {
+     "url": "https://www.dol.gov/sites/dolgov/files/ILAB/Cocoa%20Webinar%20-%20Final.pdf",
+     "accessed": "2026-10-05",
+     "id": "S02"
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "label": "Share of world cocoa grown in the two countries: more than",
+   "value": 50,
+   "format": "int",
+   "suffix": "%",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S01"
+    }
+   ]
+  },
+  {
+   "id": "imports",
+   "label": "US cocoa imports (HS 1801/1803/1804, latest year)",
+   "value": null,
+   "format": "usd",
+   "suffix": "",
+   "confidence": "Unverified",
+   "sources": [
+    {
+     "url": "https://dataweb.usitc.gov/",
+     "accessed": "2026-10-05",
+     "id": "S17"
+    }
+   ],
+   "pending": "Pending DataWeb pull"
+  },
+  {
+   "id": "years",
+   "label": "Years since the 2001 Harkin-Engel pledge",
+   "value": "auto:2001",
+   "format": "int",
+   "suffix": "",
+   "confidence": "Confirmed",
+   "sources": [
+    {
+     "url": "https://www.dol.gov/agencies/ilab/child-labor-cocoa",
+     "accessed": "2026-10-05",
+     "id": "S03"
+    }
+   ]
+  }
+ ],
+ "lawsuit": {
+  "court": "US District Court for the District of Columbia",
+  "case": "1:26-cv-02569 (number taken from the docket link in press coverage; confirm on CourtListener)",
+  "plaintiff": "International Rights Advocates",
+  "defendant": "Lindt & Sprüngli",
+  "filed": "Moved to federal court 21 July 2026 (original filing date not confirmed)",
+  "status": "Pending as of last check. Docket status to be confirmed.",
+  "relief": "Per ConfectioneryNews, the case seeks changes to marketing claims rather than damages.",
+  "links": [
+   {
+    "label": "Docket (Justia)",
+    "url": "https://dockets.justia.com/docket/district-of-columbia/dcdce/1:2026cv02569/294690"
+   },
+   {
+    "label": "CourtListener search",
+    "url": "https://www.courtlistener.com/?q=Lindt+Spr%C3%BCngli+International+Rights+Advocates"
+   },
+   {
+    "label": "ConfectioneryNews",
+    "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/"
+   },
+   {
+    "label": "Claims Journal",
+    "url": "https://amp.claimsjournal.com/news/national/2026/07/24/339050.htm"
+   }
+  ],
+  "pairs": [
+   {
+    "allegation": "The complaint alleges Lindt misleads consumers by saying it is trying to eliminate child labor and is committed to human rights.",
+    "response": "Lindt denies the allegations, says it strongly condemns all forms of child labor, has supplier protocols and systematically investigates suspected cases.",
+    "allegation_sources": [
+     {
+      "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+      "accessed": "2026-10-05",
+      "id": "S05"
+     }
+    ],
+    "response_sources": [
+     {
+      "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+      "accessed": "2026-10-05",
+      "id": "S05"
+     },
+     {
+      "url": "https://www.confectioneryproduction.com/news/58796/lindt-sprungli-facing-us-claims-of-supply-chain-child-labour/",
+      "accessed": "2026-10-05",
+      "id": "S08"
+     }
+    ]
+   },
+   {
+    "allegation": "It alleges Lindt has known for more than 20 years that its cocoa is produced using child labor.",
+    "response": "Lindt denies this. It points to its Farming Program, unannounced farm visits and a goal of monitoring-system coverage for all cocoa from risk countries.",
+    "allegation_sources": [
+     {
+      "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+      "accessed": "2026-10-05",
+      "id": "S05"
+     }
+    ],
+    "response_sources": [
+     {
+      "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+      "accessed": "2026-10-05",
+      "id": "S10"
+     },
+     {
+      "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+      "accessed": "2026-10-05",
+      "id": "S09"
+     }
+    ]
+   },
+   {
+    "allegation": "It targets certification labels and sourcing claims on packaging.",
+    "response": "Lindt says all its cocoa is sourced as Rainforest Alliance Certified from 2026, that the seal is being introduced gradually, and that it invests beyond certification. (This June 2026 release predates the suit and is not a direct reply to it.)",
+    "allegation_sources": [
+     {
+      "url": "https://amp.claimsjournal.com/news/national/2026/07/24/339050.htm",
+      "accessed": "2026-10-05",
+      "id": "S06"
+     },
+     {
+      "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+      "accessed": "2026-10-05",
+      "id": "S05"
+     }
+    ],
+    "response_sources": [
+     {
+      "url": "https://www.lindt-eshopglobal.com/press-releases-and-news/english/lindt-sprungli-now-sources-100-of-its-cocoa-as-rainforest-alliance-certified/",
+      "accessed": "2026-10-05",
+      "id": "S11"
+     }
+    ]
+   },
+   {
+    "allegation": "The case seeks to stop what the plaintiff calls misleading representations, not money damages.",
+    "response": "Lindt called the claims misguided and noted the same group has sued other chocolate companies (as relayed by press; not independently verified here).",
+    "allegation_sources": [
+     {
+      "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+      "accessed": "2026-10-05",
+      "id": "S05"
+     }
+    ],
+    "response_sources": [
+     {
+      "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+      "accessed": "2026-10-05",
+      "id": "S07"
+     },
+     {
+      "url": "https://amp.claimsjournal.com/news/national/2026/07/24/339050.htm",
+      "accessed": "2026-10-05",
+      "id": "S06"
+     }
+    ]
+   }
+  ]
+ },
+ "method": {
+  "steps": [
+   "Collected public sources only: government pages, company releases, news reports, court-docket aggregators.",
+   "Every record carries a source URL, date accessed and a confidence label.",
+   "Facts were paraphrased, not copied. The lawsuit's claims are shown as allegations next to Lindt's denial.",
+   "Network edges between suppliers and factories are marked Unverified unless a source names both ends.",
+   "Free tools used: web search, DOL/USITC portals, Lindt's own publications, ImportYeti, CourtListener, OpenSanctions."
+  ],
+  "confidence": [
+   [
+    "Confirmed",
+    "Stated by an official, primary or company source we could point to."
+   ],
+   [
+    "Reported",
+    "Stated by credible news or a secondary source; not independently verified."
+   ],
+   [
+    "Alleged",
+    "A claim made in the lawsuit; unproven and denied."
+   ],
+   [
+    "Unverified",
+    "Inferred, placeholder, or awaiting data. Treat as a hypothesis."
+   ]
+  ],
+  "gaps": [
+   "Named suppliers and processors for Lindt in Ghana and Côte d'Ivoire: none found in the sources we could read.",
+   "Which supplier feeds which US factory: no shipment data loaded yet (ImportYeti pull pending).",
+   "The original Lindt sustainability report page for the 8,491 visits / 87 child workers; swissinfo says 2021, another summary says 2023. Year unresolved.",
+   "Whether Lindt met its 2025 monitoring-coverage goal.",
+   "US plant list and brand ownership, line by line from the 2025 annual report PDF.",
+   "Docket: filing date, current status, Lindt's formal response (CourtListener pull pending).",
+   "US import values by HS 1801/1803/1804 and country (USITC DataWeb pull pending).",
+   "NORC child-labor split between Ghana and Côte d'Ivoire and regional prevalence for the choropleth.",
+   "The Ghana entry on the DOL List of Goods (only the Côte d'Ivoire entry was read).",
+   "OpenSanctions screening: no companies screened yet."
+  ],
+  "sayari": [
+   "Corporate ownership trees and beneficial owners for processors, traders and cooperatives.",
+   "Customs-level linkage of named suppliers to named US consignees at scale, beyond ImportYeti summaries.",
+   "Sanctions, adverse media and forced-labor-list screening across the whole supplier network, continuously.",
+   "Entity resolution across spellings and languages (French, English) in West African trade records.",
+   "Note: this project is not affiliated with or endorsed by Sayari."
+  ]
+ },
+ "about": {
+  "text": "This is an independent open-source-intelligence portfolio project. It was built to show how a public-source supply-chain map can be assembled with free tools, how claims are separated from evidence, and where commercial data would add value. It has no connection to Lindt, International Rights Advocates or any party to the case.",
+  "links": [
+   {
+    "label": "GitHub repository",
+    "url": "https://github.com/belianakrashi/lindt-cocoa-tier-map"
+   }
+  ]
+ },
+ "legal": "Independent research from public sources. Not legal advice. Statements about the lawsuit are allegations only; Lindt denies them. No product is claimed to be made with child labor. Corrections welcome via GitHub issues."
+}

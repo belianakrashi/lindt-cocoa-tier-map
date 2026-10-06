@@ -1,0 +1,482 @@
+[
+ {
+  "id": "lindt-group",
+  "name": "Lindt & Sprüngli AG (Group)",
+  "tier": 0,
+  "kind": "parent",
+  "country": "Switzerland",
+  "role": "Parent company; owns the three US brands below.",
+  "confidence": "Confirmed",
+  "evidence": "Company release describes 12 factories in Europe and the USA and 2025 sales of CHF 5.92 billion. Ownership of Lindt USA, Ghirardelli and Russell Stover as supplied by the project owner; annual-report line check pending.",
+  "sources": [
+   {
+    "url": "https://www.lindt-eshopglobal.com/press-releases-and-news/english/lindt-sprungli-now-sources-100-of-its-cocoa-as-rainforest-alliance-certified/",
+    "accessed": "2026-10-05",
+    "id": "S11"
+   },
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": 47.3226,
+  "lng": 8.5547,
+  "aliases": [
+   "Lindt",
+   "Lindt & Sprungli",
+   "Kilchberg"
+  ]
+ },
+ {
+  "id": "brand-lindt-usa",
+  "name": "Lindt & Sprüngli (USA)",
+  "tier": 0,
+  "kind": "brand",
+  "country": "United States",
+  "role": "US arm selling Lindt-brand chocolate.",
+  "confidence": "Reported",
+  "evidence": "Listed as a US brand of the Group; US factory location to be verified from the PDF.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": [
+   "Lindt USA"
+  ]
+ },
+ {
+  "id": "brand-ghirardelli",
+  "name": "Ghirardelli",
+  "tier": 0,
+  "kind": "brand",
+  "country": "United States",
+  "role": "US premium chocolate brand owned by the Group.",
+  "confidence": "Reported",
+  "evidence": "Listed as a Group brand; verify in annual report PDF.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "brand-russell-stover",
+  "name": "Russell Stover",
+  "tier": 0,
+  "kind": "brand",
+  "country": "United States",
+  "role": "US confectionery brand owned by the Group.",
+  "confidence": "Reported",
+  "evidence": "Listed as a Group brand; verify in annual report PDF.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "fac-stratham",
+  "name": "Lindt · Stratham NH",
+  "tier": 1,
+  "kind": "factory",
+  "country": "United States",
+  "role": "US chocolate factory and HQ for Lindt USA.",
+  "confidence": "Reported",
+  "evidence": "Location from the annual-report page per search summary; not yet confirmed line by line.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": 43.0112,
+  "lng": -70.9078,
+  "aliases": []
+ },
+ {
+  "id": "fac-sanleandro",
+  "name": "Ghirardelli · San Leandro CA",
+  "tier": 1,
+  "kind": "factory",
+  "country": "United States",
+  "role": "US chocolate factory for Ghirardelli.",
+  "confidence": "Reported",
+  "evidence": "Location from the annual-report page per search summary; not yet confirmed line by line.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": 37.7249,
+  "lng": -122.1561,
+  "aliases": []
+ },
+ {
+  "id": "fac-abilene",
+  "name": "Russell Stover · Abilene KS",
+  "tier": 1,
+  "kind": "factory",
+  "country": "United States",
+  "role": "US confectionery factory.",
+  "confidence": "Reported",
+  "evidence": "Same caveat as above.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": 38.9172,
+  "lng": -97.2139,
+  "aliases": []
+ },
+ {
+  "id": "fac-montrose",
+  "name": "Russell Stover · Montrose CO",
+  "tier": 1,
+  "kind": "factory",
+  "country": "United States",
+  "role": "US confectionery factory.",
+  "confidence": "Reported",
+  "evidence": "Same caveat as above.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": 38.4783,
+  "lng": -107.8762,
+  "aliases": []
+ },
+ {
+  "id": "fac-corsicana",
+  "name": "Russell Stover · Corsicana TX",
+  "tier": 1,
+  "kind": "factory",
+  "country": "United States",
+  "role": "US confectionery factory.",
+  "confidence": "Reported",
+  "evidence": "Same caveat as above.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "lat": 32.0954,
+  "lng": -96.4689,
+  "aliases": []
+ },
+ {
+  "id": "proc-butter-ci",
+  "name": "Butter suppliers, Côte d'Ivoire (unnamed)",
+  "tier": 2,
+  "kind": "processor",
+  "country": "Côte d'Ivoire",
+  "role": "Press reports say Lindt's cocoa butter comes from Côte d'Ivoire. No supplier is named in the sources we could read.",
+  "confidence": "Reported",
+  "evidence": "Secondary press report only. Names to come from Lindt's sustainability report or ImportYeti.",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "proc-beans-gh",
+  "name": "Bean suppliers, Ghana (unnamed)",
+  "tier": 2,
+  "kind": "processor",
+  "country": "Ghana",
+  "role": "Press reports say Lindt's consumer-grade beans come from Ghana. No supplier named.",
+  "confidence": "Reported",
+  "evidence": "Swissinfo describes about 80,000 Ghanaian farmers in Lindt's program.",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   },
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "proc-importyeti",
+  "name": "Shipment-record suppliers (pending)",
+  "tier": 2,
+  "kind": "processor",
+  "country": "Various",
+  "role": "Placeholder for suppliers found in ImportYeti records.",
+  "confidence": "Unverified",
+  "evidence": "No records loaded yet. Add them to this file when pulled.",
+  "sources": [
+   {
+    "url": "https://www.importyeti.com/",
+    "accessed": "2026-10-05",
+    "id": "S18"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "reg-cocobod",
+  "name": "COCOBOD (Ghana Cocoa Board)",
+  "tier": 3,
+  "kind": "regulator",
+  "country": "Ghana",
+  "role": "National regulator and marketing body for Ghanaian cocoa.",
+  "confidence": "Confirmed",
+  "evidence": "Sector context. No claim that it supplies Lindt directly.",
+  "sources": [
+   {
+    "url": "https://cocobod.gh/",
+    "accessed": "2026-10-05",
+    "id": "S21"
+   }
+  ],
+  "lat": 5.632,
+  "lng": -0.014,
+  "aliases": [
+   "Ghana Cocoa Board"
+  ]
+ },
+ {
+  "id": "reg-ccc",
+  "name": "Conseil du Café-Cacao",
+  "tier": 3,
+  "kind": "regulator",
+  "country": "Côte d'Ivoire",
+  "role": "National regulator for Ivorian cocoa.",
+  "confidence": "Confirmed",
+  "evidence": "Sector context. No claim that it supplies Lindt directly.",
+  "sources": [
+   {
+    "url": "https://www.conseilcafecacao.ci/",
+    "accessed": "2026-10-05",
+    "id": "S22"
+   }
+  ],
+  "lat": 5.33,
+  "lng": -4.02,
+  "aliases": [
+   "CCC"
+  ]
+ },
+ {
+  "id": "coop-gh",
+  "name": "Buyers / co-ops, Ghana (unnamed)",
+  "tier": 3,
+  "kind": "buyer",
+  "country": "Ghana",
+  "role": "Intermediaries that buy from farmers in the Lindt Farming Program.",
+  "confidence": "Unverified",
+  "evidence": "Program structure implies intermediaries; none named in our sources.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "coop-ci",
+  "name": "Buyers / co-ops, Côte d'Ivoire (unnamed)",
+  "tier": 3,
+  "kind": "buyer",
+  "country": "Côte d'Ivoire",
+  "role": "Intermediaries between Ivorian farmers and butter processors.",
+  "confidence": "Unverified",
+  "evidence": "None named in our sources.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "farms-gh",
+  "name": "Farm households, Ghana",
+  "tier": 4,
+  "kind": "farm",
+  "country": "Ghana",
+  "role": "Smallholder farms in the program. Swissinfo cites about 80,000 farmers in Ghana.",
+  "confidence": "Reported",
+  "evidence": "Sector-level: NORC found widespread child labor in Ghana's cocoa areas. We do not trace any product to a farm.",
+  "sources": [
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   },
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ],
+  "lat": 6.4,
+  "lng": -2.2,
+  "aliases": []
+ },
+ {
+  "id": "farms-tepa",
+  "name": "Tepa area farms, Ghana",
+  "tier": 4,
+  "kind": "farm",
+  "country": "Ghana",
+  "role": "Area featured in a 2024 Swiss TV documentary reporting children working on farms linked to Lindt supply.",
+  "confidence": "Reported",
+  "evidence": "Reported by the broadcaster; Lindt says it takes such cases seriously and investigates. Not independently verified here.",
+  "sources": [
+   {
+    "url": "https://www.confectioneryproduction.com/news/58796/lindt-sprungli-facing-us-claims-of-supply-chain-child-labour/",
+    "accessed": "2026-10-05",
+    "id": "S08"
+   }
+  ],
+  "lat": 6.87,
+  "lng": -2.4,
+  "aliases": []
+ },
+ {
+  "id": "farms-ci",
+  "name": "Farm households, Côte d'Ivoire",
+  "tier": 4,
+  "kind": "farm",
+  "country": "Côte d'Ivoire",
+  "role": "Sector-level farm base for Ivorian cocoa.",
+  "confidence": "Reported",
+  "evidence": "NORC and DOL document child labor at scale in Côte d'Ivoire. No Lindt-specific farm trace.",
+  "sources": [
+   {
+    "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+    "accessed": "2026-10-05",
+    "id": "S01"
+   },
+   {
+    "url": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
+    "accessed": "2026-10-05",
+    "id": "S04"
+   }
+  ],
+  "lat": 6.4,
+  "lng": -6.0,
+  "aliases": []
+ },
+ {
+  "id": "claim-farming",
+  "name": "Lindt & Sprüngli Farming Program",
+  "tier": 5,
+  "kind": "claim",
+  "country": "Switzerland",
+  "role": "Lindt's responsible-sourcing standard for cocoa (since 2008).",
+  "confidence": "Confirmed",
+  "evidence": "Company-stated program. Whether it achieves its aims is what the lawsuit disputes.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   },
+   {
+    "url": "https://www.lindt-spruengli.com/amfile/file/download/id/10509/file/Farming-Program-2026-2030.pdf",
+    "accessed": "2026-10-05",
+    "id": "S13"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "claim-ra",
+  "name": "Rainforest Alliance (June 2026)",
+  "tier": 5,
+  "kind": "claim",
+  "country": "Global",
+  "role": "Lindt says 100% of its cocoa is sourced as Rainforest Alliance Certified from 2026.",
+  "confidence": "Confirmed",
+  "evidence": "Company statement; the complaint reportedly targets certification labels.",
+  "sources": [
+   {
+    "url": "https://www.lindt-eshopglobal.com/press-releases-and-news/english/lindt-sprungli-now-sources-100-of-its-cocoa-as-rainforest-alliance-certified/",
+    "accessed": "2026-10-05",
+    "id": "S11"
+   },
+   {
+    "url": "https://knowledge.rainforest-alliance.org/docs/rainforest-alliance-sustainable-agriculture-standard-farm-requirements",
+    "accessed": "2026-10-05",
+    "id": "S23"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ },
+ {
+  "id": "claim-2030",
+  "name": "2030 Sustainability Plan",
+  "tier": 5,
+  "kind": "claim",
+  "country": "Switzerland",
+  "role": "Lindt's public sustainability commitments to 2030.",
+  "confidence": "Confirmed",
+  "evidence": "Company document.",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/amfile/file/download/id/10207/file/2030-Sustainability-Plan.pdf",
+    "accessed": "2026-10-05",
+    "id": "S12"
+   }
+  ],
+  "lat": null,
+  "lng": null,
+  "aliases": []
+ }
+]

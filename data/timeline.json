@@ -1,0 +1,267 @@
+[
+ {
+  "id": "t2001",
+  "date": "2001-09",
+  "precision": "month",
+  "track": "promise",
+  "title": "Harkin-Engel Protocol signed",
+  "summary": "Industry, US lawmakers and others agreed a plan to end the worst forms of child labor in cocoa, with time-bound steps.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.dol.gov/agencies/ilab/child-labor-cocoa",
+    "accessed": "2026-10-05",
+    "id": "S03"
+   }
+  ]
+ },
+ {
+  "id": "t2005",
+  "date": "2005-07",
+  "precision": "month",
+  "track": "finding",
+  "title": "First Protocol deadline passes unmet",
+  "summary": "Reporting widely describes the first deadlines as missed and later extended. Exact wording of each deadline to be checked against the DOL page.",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.dol.gov/agencies/ilab/child-labor-cocoa",
+    "accessed": "2026-10-05",
+    "id": "S03"
+   }
+  ]
+ },
+ {
+  "id": "t2008",
+  "date": "2008",
+  "precision": "year",
+  "track": "promise",
+  "title": "Lindt launches its Farming Program",
+  "summary": "Lindt says the program has been its responsible-sourcing standard for cocoa since 2008.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-eshopglobal.com/press-releases-and-news/english/lindt-sprungli-now-sources-100-of-its-cocoa-as-rainforest-alliance-certified/",
+    "accessed": "2026-10-05",
+    "id": "S11"
+   }
+  ]
+ },
+ {
+  "id": "t2010",
+  "date": "2010",
+  "precision": "year",
+  "track": "promise",
+  "title": "Declaration of Joint Action and Framework of Action",
+  "summary": "The US, Ghana, Côte d'Ivoire and industry set follow-up commitments. A 70% cut in worst forms by 2020 is widely cited; check the DOL page.",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.dol.gov/agencies/ilab/child-labor-cocoa",
+    "accessed": "2026-10-05",
+    "id": "S03"
+   }
+  ]
+ },
+ {
+  "id": "t2016",
+  "date": "2016",
+  "precision": "year",
+  "track": "promise",
+  "title": "Lindt introduces unannounced farm visits",
+  "summary": "Swissinfo reports Lindt began unannounced farm visits in 2016.",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   }
+  ]
+ },
+ {
+  "id": "t2020a",
+  "date": "2020",
+  "precision": "year",
+  "track": "promise",
+  "title": "Lindt: 100% of beans via Farming Program",
+  "summary": "Lindt states all cocoa beans have come through the program since 2020.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ]
+ },
+ {
+  "id": "t2020b",
+  "date": "2020-10",
+  "precision": "month",
+  "track": "finding",
+  "title": "NORC: 1.56M children in cocoa child labor",
+  "summary": "NORC, funded by the US DOL, estimated about 1.56M children in child labor in cocoa in Ghana and Côte d'Ivoire in 2018/19, about 1.48M in hazardous work. Industry's 2020 reduction goal was not met.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+    "accessed": "2026-10-05",
+    "id": "S01"
+   },
+   {
+    "url": "https://www.dol.gov/sites/dolgov/files/ILAB/Cocoa%20Webinar%20-%20Final.pdf",
+    "accessed": "2026-10-05",
+    "id": "S02"
+   }
+  ]
+ },
+ {
+  "id": "t2021",
+  "date": "2021",
+  "precision": "year",
+  "track": "finding",
+  "title": "Lindt: 8,491 surprise visits, 87 child workers",
+  "summary": "Press cites Lindt's own reporting: 87 child workers found in 8,491 unannounced visits in 2021 (year per swissinfo). A Ghanaian journalist quoted there called the number low. Original report to be located.",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   },
+   {
+    "url": "https://www.confectioneryproduction.com/news/58796/lindt-sprungli-facing-us-claims-of-supply-chain-child-labour/",
+    "accessed": "2026-10-05",
+    "id": "S08"
+   }
+  ]
+ },
+ {
+  "id": "t2022",
+  "date": "2022-06",
+  "precision": "month",
+  "track": "promise",
+  "title": "Lindt targets 100% CLMRS coverage by 2025",
+  "summary": "Lindt's 2021 report set a goal that all cocoa from child-labor-risk countries comes from households covered by a monitoring and remediation system by 2025.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ]
+ },
+ {
+  "id": "t2024",
+  "date": "2024",
+  "precision": "year",
+  "track": "finding",
+  "title": "Swiss TV documentary on Tepa, Ghana",
+  "summary": "SRF reported children working on farms in the Tepa area linked to Lindt supply. Lindt said it takes such cases seriously.",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.confectioneryproduction.com/news/58796/lindt-sprungli-facing-us-claims-of-supply-chain-child-labour/",
+    "accessed": "2026-10-05",
+    "id": "S08"
+   },
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   }
+  ]
+ },
+ {
+  "id": "t2025a",
+  "date": "2025",
+  "precision": "year",
+  "track": "promise",
+  "title": "Lindt 2030 Sustainability Plan",
+  "summary": "Lindt publishes its 2030 plan and commitments.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/amfile/file/download/id/10207/file/2030-Sustainability-Plan.pdf",
+    "accessed": "2026-10-05",
+    "id": "S12"
+   }
+  ]
+ },
+ {
+  "id": "t2025b",
+  "date": "2025",
+  "precision": "year",
+  "track": "finding",
+  "title": "CLMRS target year: outcome unconfirmed",
+  "summary": "We could not confirm whether Lindt reached 100% coverage by 2025.",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ]
+ },
+ {
+  "id": "t2026a",
+  "date": "2026-06-17",
+  "precision": "day",
+  "track": "promise",
+  "title": "Lindt: all cocoa Rainforest Alliance Certified",
+  "summary": "Lindt says that from 2026 all cocoa is sourced as certified; the seal will appear gradually and not on every product.",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-eshopglobal.com/press-releases-and-news/english/lindt-sprungli-now-sources-100-of-its-cocoa-as-rainforest-alliance-certified/",
+    "accessed": "2026-10-05",
+    "id": "S11"
+   }
+  ]
+ },
+ {
+  "id": "t2026b",
+  "date": "2026-07-21",
+  "precision": "day",
+  "track": "finding",
+  "title": "Complaint moved to federal court in Washington, DC",
+  "summary": "International Rights Advocates' complaint alleges Lindt misled consumers about efforts to end child labor in Ghana and Côte d'Ivoire. These are allegations. Lindt denies them.",
+  "confidence": "Alleged",
+  "sources": [
+   {
+    "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+    "accessed": "2026-10-05",
+    "id": "S05"
+   },
+   {
+    "url": "https://amp.claimsjournal.com/news/national/2026/07/24/339050.htm",
+    "accessed": "2026-10-05",
+    "id": "S06"
+   }
+  ]
+ },
+ {
+  "id": "t2026c",
+  "date": "2026-07-23",
+  "precision": "day",
+  "track": "finding",
+  "title": "Press coverage and Lindt's denial",
+  "summary": "Reuters-led coverage; Lindt says it condemns child labor, has supplier protocols and investigates suspected cases.",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.confectionerynews.com/Article/2026/07/24/lindt-sued-over-alleged-child-labour-in-cocoa-supply-chain/",
+    "accessed": "2026-10-05",
+    "id": "S05"
+   },
+   {
+    "url": "https://www.confectioneryproduction.com/news/58796/lindt-sprungli-facing-us-claims-of-supply-chain-child-labour/",
+    "accessed": "2026-10-05",
+    "id": "S08"
+   }
+  ]
+ }
+]

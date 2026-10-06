@@ -1,0 +1,594 @@
+[
+ {
+  "id": "own-brand-lindt-usa",
+  "to": "brand-lindt-usa",
+  "type": "ownership",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Group owns brand (as supplied; annual report check pending).",
+  "weight": 1,
+  "from": "lindt-group"
+ },
+ {
+  "id": "own-brand-ghirardelli",
+  "to": "brand-ghirardelli",
+  "type": "ownership",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Group owns brand (as supplied; annual report check pending).",
+  "weight": 1,
+  "from": "lindt-group"
+ },
+ {
+  "id": "own-brand-russell-stover",
+  "to": "brand-russell-stover",
+  "type": "ownership",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Group owns brand (as supplied; annual report check pending).",
+  "weight": 1,
+  "from": "lindt-group"
+ },
+ {
+  "id": "br-1",
+  "to": "fac-stratham",
+  "type": "brand-factory",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Brand made at this plant.",
+  "weight": 1,
+  "from": "brand-lindt-usa"
+ },
+ {
+  "id": "br-2",
+  "to": "fac-sanleandro",
+  "type": "brand-factory",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Brand made at this plant.",
+  "weight": 1,
+  "from": "brand-ghirardelli"
+ },
+ {
+  "id": "br-abilene",
+  "to": "fac-abilene",
+  "type": "brand-factory",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Brand made at this plant.",
+  "weight": 1,
+  "from": "brand-russell-stover"
+ },
+ {
+  "id": "br-montrose",
+  "to": "fac-montrose",
+  "type": "brand-factory",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Brand made at this plant.",
+  "weight": 1,
+  "from": "brand-russell-stover"
+ },
+ {
+  "id": "br-corsicana",
+  "to": "fac-corsicana",
+  "type": "brand-factory",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/investors/integrated-annual-report-2025/",
+    "accessed": "2026-10-05",
+    "id": "S16"
+   }
+  ],
+  "note": "Brand made at this plant.",
+  "weight": 1,
+  "from": "brand-russell-stover"
+ },
+ {
+  "id": "sup-proc-butter-ci-stratham",
+  "to": "fac-stratham",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-butter-ci"
+ },
+ {
+  "id": "sup-proc-butter-ci-sanleandro",
+  "to": "fac-sanleandro",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-butter-ci"
+ },
+ {
+  "id": "sup-proc-butter-ci-abilene",
+  "to": "fac-abilene",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-butter-ci"
+ },
+ {
+  "id": "sup-proc-butter-ci-montrose",
+  "to": "fac-montrose",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-butter-ci"
+ },
+ {
+  "id": "sup-proc-butter-ci-corsicana",
+  "to": "fac-corsicana",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-butter-ci"
+ },
+ {
+  "id": "sup-proc-beans-gh-stratham",
+  "to": "fac-stratham",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-beans-gh"
+ },
+ {
+  "id": "sup-proc-beans-gh-sanleandro",
+  "to": "fac-sanleandro",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-beans-gh"
+ },
+ {
+  "id": "sup-proc-beans-gh-abilene",
+  "to": "fac-abilene",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-beans-gh"
+ },
+ {
+  "id": "sup-proc-beans-gh-montrose",
+  "to": "fac-montrose",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-beans-gh"
+ },
+ {
+  "id": "sup-proc-beans-gh-corsicana",
+  "to": "fac-corsicana",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-beans-gh"
+ },
+ {
+  "id": "sup-proc-importyeti-stratham",
+  "to": "fac-stratham",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.importyeti.com/",
+    "accessed": "2026-10-05",
+    "id": "S18"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-importyeti"
+ },
+ {
+  "id": "sup-proc-importyeti-sanleandro",
+  "to": "fac-sanleandro",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.importyeti.com/",
+    "accessed": "2026-10-05",
+    "id": "S18"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-importyeti"
+ },
+ {
+  "id": "sup-proc-importyeti-abilene",
+  "to": "fac-abilene",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.importyeti.com/",
+    "accessed": "2026-10-05",
+    "id": "S18"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-importyeti"
+ },
+ {
+  "id": "sup-proc-importyeti-montrose",
+  "to": "fac-montrose",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.importyeti.com/",
+    "accessed": "2026-10-05",
+    "id": "S18"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-importyeti"
+ },
+ {
+  "id": "sup-proc-importyeti-corsicana",
+  "to": "fac-corsicana",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.importyeti.com/",
+    "accessed": "2026-10-05",
+    "id": "S18"
+   }
+  ],
+  "note": "Sector-level routing; which supplier feeds which plant is not established. Awaiting ImportYeti data.",
+  "weight": 2,
+  "from": "proc-importyeti"
+ },
+ {
+  "id": "sup-coop-gh",
+  "to": "proc-beans-gh",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   }
+  ],
+  "note": "Presumed buying chain in Ghana.",
+  "weight": 1,
+  "from": "coop-gh"
+ },
+ {
+  "id": "sup-cocobod",
+  "to": "proc-beans-gh",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://cocobod.gh/",
+    "accessed": "2026-10-05",
+    "id": "S21"
+   }
+  ],
+  "note": "COCOBOD handles marketing of Ghana's cocoa (sector-level).",
+  "weight": 1,
+  "from": "reg-cocobod"
+ },
+ {
+  "id": "sup-coop-ci",
+  "to": "proc-butter-ci",
+  "type": "supply",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://ground.news/article/swiss-chocolate-maker-lindt-misleads-consumers-about-child-labor-us-lawsuit-claims",
+    "accessed": "2026-10-05",
+    "id": "S07"
+   }
+  ],
+  "note": "Presumed buying chain in Côte d'Ivoire.",
+  "weight": 1,
+  "from": "coop-ci"
+ },
+ {
+  "id": "sup-ccc",
+  "to": "proc-butter-ci",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.conseilcafecacao.ci/",
+    "accessed": "2026-10-05",
+    "id": "S22"
+   }
+  ],
+  "note": "Regulator oversees Ivorian cocoa sales (sector-level).",
+  "weight": 1,
+  "from": "reg-ccc"
+ },
+ {
+  "id": "sup-f-gh",
+  "to": "coop-gh",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.swissinfo.ch/eng/business/child-laber-in-africa-chocolate-maker-lindt-s-supply-chain-in-ghana-scandal/49147288",
+    "accessed": "2026-10-05",
+    "id": "S09"
+   }
+  ],
+  "note": "Farmers sell to buyers.",
+  "weight": 1,
+  "from": "farms-gh"
+ },
+ {
+  "id": "sup-f-tepa",
+  "to": "coop-gh",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.confectioneryproduction.com/news/58796/lindt-sprungli-facing-us-claims-of-supply-chain-child-labour/",
+    "accessed": "2026-10-05",
+    "id": "S08"
+   }
+  ],
+  "note": "Area described as supplying Lindt per the broadcaster; Lindt says it investigates suspected cases.",
+  "weight": 1,
+  "from": "farms-tepa"
+ },
+ {
+  "id": "sup-f-ci",
+  "to": "coop-ci",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.cocoainitiative.org/knowledge-hub/resources/norc-assessing-progress-reducing-child-labour-cocoa-production-cocoa",
+    "accessed": "2026-10-05",
+    "id": "S01"
+   }
+  ],
+  "note": "Farmers sell to buyers.",
+  "weight": 1,
+  "from": "farms-ci"
+ },
+ {
+  "id": "sup-f-gh-cb",
+  "to": "reg-cocobod",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://cocobod.gh/",
+    "accessed": "2026-10-05",
+    "id": "S21"
+   }
+  ],
+  "note": "Farm output flows through the regulated system.",
+  "weight": 1,
+  "from": "farms-gh"
+ },
+ {
+  "id": "sup-f-ci-ccc",
+  "to": "reg-ccc",
+  "type": "supply",
+  "confidence": "Reported",
+  "sources": [
+   {
+    "url": "https://www.conseilcafecacao.ci/",
+    "accessed": "2026-10-05",
+    "id": "S22"
+   }
+  ],
+  "note": "Farm output flows through the regulated system.",
+  "weight": 1,
+  "from": "farms-ci"
+ },
+ {
+  "id": "cl-farm-gh",
+  "to": "farms-gh",
+  "type": "claim",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ],
+  "note": "Company says these farms are covered by the program.",
+  "weight": 1,
+  "from": "claim-farming"
+ },
+ {
+  "id": "cl-farm-ci",
+  "to": "farms-ci",
+  "type": "claim",
+  "confidence": "Unverified",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ],
+  "note": "Program covers seven countries of origin; Côte d'Ivoire coverage not confirmed by us.",
+  "weight": 1,
+  "from": "claim-farming"
+ },
+ {
+  "id": "cl-ra",
+  "to": "lindt-group",
+  "type": "claim",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-eshopglobal.com/press-releases-and-news/english/lindt-sprungli-now-sources-100-of-its-cocoa-as-rainforest-alliance-certified/",
+    "accessed": "2026-10-05",
+    "id": "S11"
+   }
+  ],
+  "note": "Company claims certified sourcing; seal to be introduced progressively.",
+  "weight": 1,
+  "from": "claim-ra"
+ },
+ {
+  "id": "cl-2030",
+  "to": "lindt-group",
+  "type": "claim",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/amfile/file/download/id/10207/file/2030-Sustainability-Plan.pdf",
+    "accessed": "2026-10-05",
+    "id": "S12"
+   }
+  ],
+  "note": "Public commitment.",
+  "weight": 1,
+  "from": "claim-2030"
+ },
+ {
+  "id": "cl-fp-grp",
+  "to": "lindt-group",
+  "type": "claim",
+  "confidence": "Confirmed",
+  "sources": [
+   {
+    "url": "https://www.lindt-spruengli.com/media/press-releases-news/manually-entered-articles/lindt-spruengli-publishes-2021-sustainability-report-and-adds-cocoa-butter-to-its-farming-program/",
+    "accessed": "2026-10-05",
+    "id": "S10"
+   }
+  ],
+  "note": "Core of Group's cocoa sourcing claims.",
+  "weight": 1,
+  "from": "claim-farming"
+ }
+]
